@@ -1,0 +1,13 @@
+Function Types
+
+1. Standard or Named Function
+2. Anonymous Function
+3. Function Expression or Assign function in variable
+4. Higher order function or First-class function
+5. Callback function
+6. Variadic function
+7. Init function(you can't call this function computer calls it automatically)
+8. Closure Function
+9. Defer Function
+10. Receiver Function
+11. IIFE(immediately invoked function Expression)
