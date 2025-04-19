@@ -1,13 +1,13 @@
 Function Types
 
-1. Standard or Named Function
-2. Anonymous Function
-3. Function Expression or Assign function in variable
-4. Higher order function or First-class function
-5. Callback function
-6. Variadic function
-7. Init function(you can't call this function computer calls it automatically)
-8. Closure Function
-9. Defer Function
-10. Receiver Function
-11. IIFE(immediately invoked function Expression)
+    1. Standard or Named Function: Defined with a name and used multiple times in the code.
+    2. Anonymous Function: A function without a name, often used for one-time operations.
+    3. Function Expression or Assign Function in Variable: A function that is assigned to a variable for later use.
+    4. Higher-order Function or First-class Function: A function that accepts other functions as parameters or returns a function.
+    5. Callback Function: A function passed as a parameter to another function and invoked within it.
+    6. Variadic Function: A function that can take a variable number of arguments.
+    7. Init Function: A special function that is automatically executed before the main function.
+    8. Closure Function: A function that captures variables from its surrounding scope.
+    9. Defer Function: A function that is deferred and executed just before the surrounding function exits.
+    10. Receiver Function: Functions defined on a struct (method).
+    11. IIFE (Immediately Invoked Function Expression): An anonymous function that is invoked immediately after its definition.
