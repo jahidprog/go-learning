@@ -1,16 +1,17 @@
-// Function Expression or Assign function
+// Function Expression or Assigned Function
 package main
 
 import "fmt"
 
 func main() {
-	// add(6, 3) // you can't call this assign function cause its not created yet. this is undefined
+	// add(6, 3) // ❌ You can't call 'add' here because it's not defined yet (undefined at this point).
+
 	add := func(a, b int) {
 		c := a + b
 		fmt.Println(c)
 	}
 
-	add(5, 3) // you can all add after creating assign function.
+	add(5, 3) // ✅ You can call 'add' after it's assigned as a function.
 }
 
 func init() {
