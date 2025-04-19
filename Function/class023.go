@@ -13,12 +13,26 @@ func add(a int, b int) {
 	fmt.Println(c)
 }
 
+// multiplier: Returns a function (closure) that multiplies its input by a given factor
+// The returned function remembers the factor value when it was created.
+func multiplier(factor int) func(int) int {
+	return func(x int) int {
+		return x * factor // Multiplies x by the factor
+	}
+}
+
 func main() {
 	// Function call with arguments: 45 and 32
 	processOperation(45, 32, add)
 	processOperation(32, 9, func(x, y int) {
 		fmt.Println(x * y)
 	})
+
+	// Creating a multiplier function with a factor of 2
+	twices := multiplier(2)
+
+	// Calling the multiplier function with 12, which results in 12 * 2 = 24
+	fmt.Println(twices(12)) // Output: 24
 }
 
 /*
