@@ -1,3 +1,5 @@
+// Internal Memory := Code segment |Data segment |Stack |Heap
+
 package main
 
 import "fmt"
